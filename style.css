@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
+}
+
+
+/*Seção Banner*/
+    #banner{
+        background-color: #303030;
+        color: #fff;
+        height: 75vh;
+    }
+    #banner h1{
+        padding:15% 5% 0;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -0.025em;
+        
+    }
+    #banner p{
+        padding: 2% 5% 0;        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+/*Seção Informações Importantes*/
+    #informacoesImportantes{
+        border-color: #F9F9F9;
+        height: 25vh;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .numeroGrande{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    #informacoesImportantes p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seção Sobre*/
+    #sobre{
+        display:none;
+    }
+/*Seção Formulário*/
+    #secaoFormulario{
+        display: none;
+    }
+    input{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    #button{
+        font-size: 30px;
+    }
